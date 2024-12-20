@@ -1,0 +1,220 @@
+body {
+    background-color: #cbad7e;
+    font-family: 'chewy'; 
+    line-height: 3em;
+}
+.links {    /* styles the links to other pages setting ther back ground colour and how big they are */
+    
+    color: inherit;
+    text-align: right;
+    right: 0;
+    background-color: #e37222;
+    left: -90px;
+    top: -10px;
+    
+}
+
+
+li {            /* styles the links to make them be in a stright line row */
+    display: inline;
+    position: relative;
+    margin: 10px;
+    
+}
+
+a {  /* hideing links blue color */
+    color: inherit;
+}
+
+nav {       /* fixes links to the top of the page */
+    font-size: 50px;
+    position: fixed;
+    
+}
+
+footer {    /* styles the foot with the face book and twitter logos */
+    background-color: #e37222;
+    position: relative;
+    margin: -8px;
+    
+}
+
+
+.fa {       /* styes twitter and face book */
+    padding: 10px;
+    font-size: 15px;
+    width: 15px;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px;
+    border-radius: 50%;
+  }
+  
+  .fa:hover {       
+      opacity: 1;
+  }
+  
+  .fa-facebook {    /* stryles face book logo background */
+    background: #3B5998;
+    color: white;
+    margin: 0px 5px;
+    max-width: 50%;
+  }
+  
+  .fa-twitter {
+    background: #55ACEE;
+    color: white; 
+    max-width: 50%;
+    
+}
+
+
+.copyrights {       /* styles coppy right in footer */
+    color: #ffffff;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    position: relative;
+    margin: 10px;
+    font-size: 10px;
+    }
+  
+.page-header {    /*styles page header  */                  
+    text-align: center;
+    font-size: 70px;
+    text-decoration: underline
+}
+
+
+.break {       /* styles break in the page*/
+    background: linear-gradient(to right,#cbad7e, #5c4c32, #cbad7e);
+    height: 4px;
+    
+    border: 0;
+}
+
+.Catalogue-type {   /* stles cake types  choclate cake, carrot cake ect*/
+    text-align: center;
+    font-size: 50px;
+}
+
+.carrot {   /* styples carrot cake image */
+    width: 1000px;
+}
+
+
+.container {        /* creates grid for text next to image of cake on catalogue */
+    display: grid;
+    align-items: center; 
+    grid-template-columns: 1fr 1fr;
+    column-gap: 100px;
+}
+
+.price {        /* styles the price on catalouge */
+    font-size: 50px;
+    text-indent: 200px;
+    
+}
+.velvet {       /* sets size of velvit cake image */
+    width: 600px;
+    
+}
+
+.Chocolate {    /* sets size of choclate cake image */
+    width: 800px;
+
+}
+
+.Sponge {       /* sets size of sponge cake image */
+    width: 800px;
+}
+
+.Recipes-header {       /* centers and sets size of recipes header */
+    text-align: center;
+    font-size: 50px;
+}
+
+.Recipes-image {        /* styles recpies image */
+    display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 1000px;
+}
+
+.Recipes-text {     /* styples rexipes text */
+    text-align: center;
+    font-size: 25px;
+}
+
+.text {     /* sets size of text */
+    font-size: 25px;
+}
+
+
+input[type=text], select {      /* styles fomr text boxes */
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 2px solid #000000;
+    border-radius: 4px;
+    box-sizing: border-box;
+    font-size: 30px;
+}
+
+.ben {  
+    width: 500px;
+    font-size: 20px;
+}
+
+.quotes {       /* stples quotes form customers */
+    text-indent: 90px;
+    font-size: 40px;
+}
+
+.checked {      /* make styles review stars */
+    color: yellow;
+    float: right;
+    
+  }
+
+
+
+  input[type=button], input[type=submit], input[type=reset] {   /* styles submit button */
+    background-color: #e37222;
+    border: none;
+    color: rgb(0, 0, 0);
+    padding: 16px 32px;
+    text-decoration: none;
+    margin: 4px 2px;
+    cursor: pointer;
+  }
+
+  input[type=text]  {   /* styles fomr text boxes */
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: 3px solid #e37222;
+    -webkit-transition: 0.5s;
+    transition: 0.5s;
+    outline: none;
+  }
+
+
+  input[type=text]:focus {  /* give form text boxes there border*/
+    border: 3px solid #000000;
+  }
+
+
+
+  .ourcontacts {        /* styles contact us  */
+    font-size: 30px;
+    text-align: center;
+  }
+
+.socialmedia {      /* styles social media header */
+    font-size: 25px;
+    text-decoration: underline;
+    text-indent: 10px;
+
+}
